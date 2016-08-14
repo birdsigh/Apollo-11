@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	ASCENT_GUIDNCE.agc
+# Filename:	ASCENT_GUIDANCE.agc
 # Purpose: 	Part of the source code for Luminary 1A build 099.
 #		It is part of the source code for the Lunar Module's (LM)
 #		Apollo Guidance Computer (AGC), for Apollo 11.
@@ -230,7 +230,7 @@ RATES		DLOAD	DSU
 		STORE	PRATE		# B * 2(8)
 		BMN	DLOAD		# B>0 NOT PERMITTED
 			CHKBMAG
-#Page 848
+# Page 848
 			HI6ZEROS
 		STCALL	PRATE
 			PROK
